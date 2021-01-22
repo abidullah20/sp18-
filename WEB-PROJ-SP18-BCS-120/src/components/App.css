@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+}
+.discounts {
+  margin-left: 13cm;
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  background: url("./img/bg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Live {
+  color: red;
+}
+.Live:hover {
+  color: black;
+}
+.banner__content {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  color: rgb(20, 2, 19);
+}
+
+.container {
+  width: 1200px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.banner__text {
+  width: 500px;
+}
+
+.banner__text h3 {
+  font-size: 50px;
+}
+
+.banner__text h1 {
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+.banner__text p {
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar__text {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+  color: white;
+  font-size: larger;
+}
+
+.logo {
+  width: 40%;
+  padding-top: 2cm;
+}
+.logo img {
+  width: 175px;
+}
+
+.logoNav {
+  size: 50%;
+}
+
+.navbar__ul {
+  width: 60%;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar__ul li a {
+  text-decoration: none;
+  color: rgb(10, 1, 1);
+  padding: 0 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.banner__btn {
+  margin-top: 35px;
+}
+
+.btn {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 12px;
+}
+
+.btn-smart {
+  background: rgb(0, 0, 0);
+}
+.btn-smart:hover {
+  opacity: 1;
+  color: rgb(12, 4, 12);
+  background: white;
+}
+
+.discount {
+  padding: 80px 0;
+}
+
+.p-25 {
+  padding: 45px;
+}
+.p-25 p {
+  font-weight: bolder;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.col-6 {
+  width: 50%;
+  position: inherit;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33333333333333%;
+}
+
+.discount h3 {
+  color: rgba(37, 37, 37, 0.7);
+  font-size: 30px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.discount h1 {
+  font-size: 40px;
+  color: #252525;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+
+.discount p {
+  font-size: 18px;
+  color: #8b8b8b;
+  font-weight: 300;
+}
+
+.discount__btn {
+  margin-top: 35px;
+}
+
+.discount__img {
+  width: 100%;
+  overflow: hidden;
+  float: right;
+}
+
+.discount__img img {
+  width: 100%;
+}
+
+.inline_left {
+  float: left;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+.red {
+  color: black;
+  font-weight: bold;
+}
+.inline_right {
+  float: inline-end;
+}
+
+.Report {
+  width: 100%;
+  background: url("./img/helpline.jpg");
+  height: 450px;
+  background-attachment: fixed;
+}
+
+.Report__text {
+  height: 450px;
+  display: flex;
+  align-items: center;
+  width: 400px;
+  justify-content: center;
+  margin: 0 auto;
+  color: rgb(0, 0, 0);
+}
+
+.Report__text h1 {
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+
+.Report__btn {
+  margin-top: 35px;
+}
+.soc {
+  color: black;
+  text-align: center;
+  margin-bottom: 3cm;
+  font-size: 2cm;
+}
+
+.socials {
+  width: 100%;
+  padding: 100px 0;
+  background: url("./img/bg.jpg");
+  background-attachment: fixed;
+
+  background-repeat: repeat;
+  background-size: cover;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.social {
+  text-align: center;
+  background-attachment: fixed;
+}
+
+.social h1 {
+  font-style: 45px;
+}
+
+.social p {
+  font-style: 18px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.grey-back {
+  background-color: rgb(65, 61, 61) !important;
+}
+
+.categories {
+  width: 100%;
+  padding: 80px 0;
+  background-color: rgb(241, 247, 246);
+}
+
+.category {
+  padding: 20px;
+  text-align: center;
+}
+.category__img {
+  width: 100%;
+}
+
+.category__img img {
+  width: 250px;
+}
+
+.category__heading {
+  margin-top: 20px;
+  font-size: 25px;
+}
+.category__text {
+  margin-top: 15px;
+  color: #888888;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.category_rs {
+  font-size: 30px;
+  margin-top: 15px;
+}
+.zoom {
+  transition: transform 0.2s;
+}
+.zoom:hover {
+  transform: scale(1.5);
+}
+.row-pz {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-wrapper {
+  background-color: rgb(255, 7, 7) !important;
+}
